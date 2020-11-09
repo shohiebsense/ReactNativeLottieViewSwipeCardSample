@@ -1,8 +1,11 @@
-import { registerRootComponent } from 'expo';
+import { registerRootComponent } from 'expo'
 
-import App from './App';
+//import App from "./App.js.backupnew";
+import App from './src/App'
+import Landing from './src/Landing'
+import Home from './src/Home'
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in the Expo client or in a native build,
 // the environment is set up appropriately
-registerRootComponent(App);
+registerRootComponent(Home)
